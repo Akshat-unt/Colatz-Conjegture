@@ -15,3 +15,7 @@ This program plots the graph of collatz conjegture for any integer n.
 
 ## Contributing:
 Anyone with booster IDEAS is welcome!
+
+## Contributors:
+`**Akshat-UNT**`
+`**untAkshat**`

@@ -14,7 +14,7 @@ steps = []
 while True:
     if bullet % 2 == 0:
         print("Even\n{}".format(bullet))
-        bullet: int = int(bullet / 2)
+        bullet //= 2
         steps.append(bullet)
         y_axis.append(bullet)
         if bullet == 1:
@@ -31,7 +31,7 @@ while True:
             print(steps)
             break
 
-for i in range(0, len(y_axis)):
+for i in range(len(y_axis)):
     x_axis.append(i)
     print(x_axis)
 number_of_steps: int = len(steps)
